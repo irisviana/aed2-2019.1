@@ -28,7 +28,7 @@ no * inserir (no* raiz, tipo_dado elemento, int *cresceu){
                                  *cresceu = 1;
                                  break;
                             case 1:
-                                //return balancear(raiz);
+                                //return rotacionar(raiz);
                                 raiz->fb = 2;
                                 *cresceu = 0;
                                 break;
@@ -49,7 +49,7 @@ no * inserir (no* raiz, tipo_dado elemento, int *cresceu){
                                  *cresceu = 1;
                                  break;
                             case 1:
-                                //return balancear(raiz);
+                                //return rotacionar(raiz);
                                 raiz->fb = 0;
                                 *cresceu = 0;
                                 break;
